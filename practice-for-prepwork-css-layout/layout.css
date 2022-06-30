@@ -1,0 +1,50 @@
+form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+legend {
+    border: 1px solid black;
+    padding: .5em;
+}
+
+fieldset {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.block {
+    display: block;
+}
+.inline {
+    display: inline;
+}
+
+#grid1 {
+    display: inline-grid;
+    grid-area:
+    "label"
+    "select";
+    width: 5em;
+}
+#grid2 {
+    display: inline-grid;
+    grid-area:
+    "label"
+    "input";
+    width: 5em;
+    margin-left: 2em;
+}
+
+.grid3 {
+    display: grid;
+    grid-area:
+    "p p"
+    "input label";
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
