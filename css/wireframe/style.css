@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header h1 {
+    border: 1px black solid;
+    padding: .5em;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.border {
+    border: 1px solid black;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h5 {
+    text-align: start;
+}
+ul {
+    text-align: start;
+    text-decoration: none;
+    list-style: ;
+}
+img {
+    height: 3rem;
+}
+a {
+    margin: 1rem;
+}
